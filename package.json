@@ -1,0 +1,26 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@asserdata/react-native-universal-pedometer": "^1.0.3",
+    "create-react-class": "^15.6.3",
+    "expo": "^32.0.0",
+    "i": "^0.3.6",
+    "npm": "^6.5.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-pedometer": "0.0.7",
+    "react-native-sensor-manager": "^0.1.10",
+    "react-native-universal-pedometer": "github:smekalka/react-native-universal-pedometer",
+    "rn-universal-pedometer": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}
