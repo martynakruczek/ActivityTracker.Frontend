@@ -1,26 +1,32 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "inz",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "dependencies": {
-    "@asserdata/react-native-universal-pedometer": "^1.0.3",
-    "create-react-class": "^15.6.3",
-    "expo": "^32.0.0",
+    "@asserdata/react-native-universal-pedometer": "github:smekalka/react-native-universal-pedometer",
     "i": "^0.3.6",
-    "npm": "^6.5.0",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "react-native-pedometer": "0.0.7",
-    "react-native-sensor-manager": "^0.1.10",
-    "react-native-universal-pedometer": "github:smekalka/react-native-universal-pedometer",
-    "rn-universal-pedometer": "^1.0.0"
+    "lodash": "^4.17.11",
+    "npm": "^6.9.0",
+    "react": "16.8.3",
+    "react-native": "0.59.4",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-sensors": "^5.1.8",
+    "react-navigation": "^3.7.1",
+    "react-timer-mixin": "^0.13.4"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
   },
-  "private": true
+  "jest": {
+    "preset": "react-native"
+  }
 }

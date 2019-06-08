@@ -1,0 +1,11 @@
+rootProject.name = 'inz'
+include ':react-native-sensors'
+project(':react-native-sensors').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sensors/android')
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+include ':react-native-universal-pedometer'
+project(':react-native-universal-pedometer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-universal-pedometer/android')
+include ':@asserdata_react-native-universal-pedometer'
+project(':@asserdata_react-native-universal-pedometer').projectDir = new File(rootProject.projectDir, '../node_modules/@asserdata/react-native-universal-pedometer/android')
+
+include ':app'
