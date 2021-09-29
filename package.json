@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@asserdata/react-native-universal-pedometer": "github:smekalka/react-native-universal-pedometer",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "lodash": "^4.17.11",
     "npm": "^6.9.0",
     "react": "16.8.3",
